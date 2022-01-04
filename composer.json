@@ -1,0 +1,21 @@
+{
+    "name": "odilov-sh/yii2-datatables",
+    "description": "Datatables extension for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","datatables"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Odilov Shukurullo",
+            "email": "shukurullo0321@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "odilov\\datatables\\": ""
+        }
+    }
+}
