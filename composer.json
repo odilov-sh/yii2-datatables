@@ -1,25 +1,26 @@
 {
-    "name": "odilov-sh/yii2-datatables",
-    "description": "Datatables extension for yii2",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension","datatables"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Odilov Shukurullo",
-            "email": "shukurullo0321@gmail.com"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "~2.0.0",
-        "php": ">=5.4.0",
-        "bower-asset/datatables.net": ">=1.10.16",
-        "bower-asset/datatables.net-plugins": ">=1.10.16",
-        "bower-asset/datatables.net-fixedheader": ">=3.1.3"
-    },
-    "autoload": {
-        "psr-4": {
-            "odilov\\datatables\\": ""
-        }
+  "name": "odilov-sh/yii2-datatables",
+  "description": "Datatables extension for yii2",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "datatables"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Odilov Shukurullo",
+      "email": "shukurullo0321@gmail.com"
     }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "odilov\\datatables\\": ""
+    }
+  }
 }
